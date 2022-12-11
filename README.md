@@ -47,3 +47,4 @@ The most important files and folders in this repository:
 
 ## Licensing, Authors and Acknowledgements<a name ="licensing"></a>
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Credits to <a href="https://github.com/ThePBone/KomootGPX">ThePBone</a> for setting up the authentication with the Komoot-Api.
