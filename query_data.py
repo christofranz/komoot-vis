@@ -1,5 +1,5 @@
 import json
-
+import sys
 from api import KomootApi
 
 MAIL = "<your-komoot-mail>"
@@ -7,8 +7,11 @@ PWD = "<your-komoot-passsword>"
 
 
 def main():
-
     # set up api and login
+    if PWD.startswith("<"):
+        print("WARNING: Please enter your password first and then re-run.")
+        sys.exit()
+
     api = KomootApi()
     api.login(MAIL, PWD)
 
