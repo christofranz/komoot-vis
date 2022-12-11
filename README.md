@@ -9,7 +9,7 @@
 4. [Licensing, Authors and Acknowledgements](#licensing)
 
 ## About komoot-vis<a name="about"></a>
-This application allows you to query your tour data from komoot and index it with Elasticsearch for a subsequent visualization in Kibana. Query results from Komoot-Api contain much meta data as the tour type, duration, distance and the coordinates. Afterwards you can use this data to create your own dashboard in Kibana. See <a href="https://www.elastic.co/guide/en/kibana/current/docker.html">https://medium.com/@franzke.christoph/create-your-own-komoot-dashboard-6a0cd35ab89</a> for more details how to do this.
+This application allows you to query your tour data from komoot and index it with Elasticsearch for a subsequent visualization in Kibana. Query results from Komoot-Api contain much meta data as the tour type, duration, distance and the coordinates. Afterwards you can use this data to create your own dashboard in Kibana. See <a href="https://www.elastic.co/guide/en/kibana/current/docker.html">Create your own Komoot Dashboard!</a> for more details how to do this.
 
 ## Installation and Instructions<a name="installation"></a>
 The python scripts and jupyter notebooks requires certain packages to be installed. All dependencies can be installed with python3 and the requirements.txt into a virtual environment via
