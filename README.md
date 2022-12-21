@@ -3,7 +3,7 @@
 
 ### Table of Contents
 
-1. [About Map-App](#about)
+1. [About komoot-vis](#about)
 2. [Installation and Instructions](#installation)
 3. [File Descriptions](#files)
 4. [Licensing, Authors and Acknowledgements](#licensing)
