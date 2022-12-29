@@ -34,7 +34,7 @@ Now the docker for Kibana:
 <code>docker pull docker.elastic.co/kibana/kibana:8.3.3 <br>
 docker run --name kib-01 --net elastic -p 5601:5601 docker.elastic.co/kibana/kibana:8.3.3</code>
   
-Now you can enter your e-mail and pwd of Komoot in `query_data.py`. Afterwards you can simply run the main script with `python query_data.py` to fetch all your komoot tour details. In the second step run the `elk-preprocessing.ipynb` to index your data with elasticsearch. Then you are set up and can create your own dashboard for komoot tour data analytics (see link above for more details).
+Now you can enter your e-mail and pwd of Komoot in `query_data.py`. Afterwards you can simply run the main script with `python query_data.py --mail <your-komoot-e-mail>` to fetch all your komoot tour details. If you do not pass your password as an argument, a prompt will ask you for it and handle it in a more secure way. In the second step run the `elk-preprocessing.ipynb` to index your data with elasticsearch. Then you are set up and can create your own dashboard for komoot tour data analytics (see link above for more details).
 
 ## File Descriptions<a name="files"></a>
 The most important files and folders in this repository:
